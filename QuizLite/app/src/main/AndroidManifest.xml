@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.thekites.quizlite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".quizActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity
+            android:name=".FirstScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".quizJavaActivity" />
+        <activity android:name=".quizAndroidActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".LevelActivity" />
+        <activity android:name=".LevelJavaActivity" />
+        <activity android:name=".LevelAndroidActivity" />
+        <activity android:name=".ResultMediumActivity" />
+        <activity android:name=".ResultHardActivity" />
+        <activity android:name=".RulesActivity" />
+        <activity android:name=".quizJavamActivity" />
+        <activity android:name=".quizJavahActivity" />
+        <activity android:name=".quizAndroidmActivity" />
+        <activity android:name=".quizAndroidhActivity" />
+        <activity android:name=".quizmActivity" />
+        <activity android:name=".quizhActivity"></activity>
+    </application>
+
+</manifest>

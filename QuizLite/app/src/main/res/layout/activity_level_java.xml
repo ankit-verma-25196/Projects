@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFF"
+    tools:context="in.thekites.quizlite.quizActivity">
+
+    <RelativeLayout
+        android:background="@drawable/title2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:id="@+id/timer">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="LEVELS"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/min"/>
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/b"
+            android:background="#00ffffff"
+
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_centerInParent="true"
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:onClick="easy"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="EASY"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/button_easy"
+
+            android:background="@drawable/buttonshapea" />
+
+        <Button
+            android:onClick="medium"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="MEDIUM"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/button_medium"
+
+            android:background="@drawable/buttonshapea" />
+
+        <Button
+            android:onClick="hard"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="HARD"
+            android:layout_below="@id/button_medium"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/button_hard"
+            android:background="@drawable/buttonshapea"/>
+
+        <!-- <Button
+             android:layout_marginTop="20dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Next"
+             android:id="@+id/button1"/>  -->
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/downbar"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#4169E1"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_home"
+            android:background="@drawable/homy"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
