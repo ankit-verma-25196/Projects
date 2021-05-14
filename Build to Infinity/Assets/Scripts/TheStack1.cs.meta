@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 528edb05b356dbb43af5486ae314b764
+timeCreated: 1511004189
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tak: {fileID: 8300000, guid: 7415c63f6e85b6843942e06e64a00ab6, type: 3}
+  - fail: {fileID: 8300000, guid: c84526e9f19e649499545d3f7906408b, type: 3}
+  - scoreText: {instanceID: 0}
+  - stackMap: {instanceID: 0}
+  - endPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
